@@ -116,7 +116,7 @@ a:hover{
 
 .parallax {
 	/* image */
-	background-image: url(ubisoftfin.jpg);	
+	background-image: url(./image/ubisoftfin.jpg);	
 	background-size: cover;
 	
 	
@@ -181,7 +181,7 @@ a:hover{
 }
 
 .parallax-3 {
-	background-image: url("thedivision.jpg");
+	background-image: url("./image/thedivision.jpg");
 	min-height: 700px;
 	background-attachment: fixed;
 	background-position: center;
@@ -192,7 +192,7 @@ a:hover{
 	justify-content: center;
 }
 .parallax-4 {
-	background-image: url("watchdog.jpg");
+	background-image: url("./image/watchdog.jpg");
 	min-height: 700px;
 	background-attachment: fixed;
 	background-position: center;
@@ -204,7 +204,7 @@ a:hover{
 }
 
 .parallax-2 {
-	background-image: url("acmira.jpg");
+	background-image: url("./image/acmira.jpg");
 	min-height: 700px;
 	background-attachment: fixed;
 	background-position: center;
@@ -294,7 +294,7 @@ nav a:hover{
 /* L'image */
 
 .ac{
-	background-image: url(acmira.jpg);
+	background-image: url(./image/acmira.jpg);
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 600px;
@@ -368,7 +368,7 @@ nav a:hover{
 
 .vacaris{
 
-	background-image: url("mirage-1.jpg");
+	background-image: url("./image/mirage-1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 800px;
@@ -455,7 +455,7 @@ nav a:hover{
 /* L'image */
 
 .dv{
-	background-image: url(divisiondeux.jpg);
+	background-image: url(./image/divisiondeux.jpg);
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 600px;
@@ -526,7 +526,7 @@ nav a:hover{
 
 .vacris{
 
-	background-image: url("image.jpg");
+	background-image: url("./image/image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 800px;
@@ -785,7 +785,7 @@ nav a:hover{
 /* watch dog */
 
 .dvv{
-	background-image: url(watchdog.jpg);
+	background-image: url(./image/watchdog.jpg);
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 600px;
