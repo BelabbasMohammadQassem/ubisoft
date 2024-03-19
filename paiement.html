@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Précommander</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+    <nav class="navbar">
+        <a href="#"><img class="logoUbisoft" src="logoUbisoft.png" alt="logo ubisoft"></a>
+            <div class="navlinks">
+            <input class="search" required type="search">
+            
+            <ul>
+                <li><a href="contact.html">AIDE</a></li>
+
+            </ul>
+        </div>
+    </nav>
+   
+</header>
+<body>
+   <div class="paiement">
+    <h1>Paiement</h1>
+    <form action="confirmation.html" method="get">
+        <div class="pay">
+        <div>
+            <label for="name"></label>
+            <input type="text" id="name"name="user_name" placeholder="Nom de la carte">
+        </div>
+        <br>
+        
+
+        <div>
+            <label for="bank_card"></label>
+            <input type="bank_card" id="bank_card"name="bank_card" placeholder="Numéro de la carte">
+        </div>
+
+        <br>
+
+        <div class="gauche">
+            <label for="date"></label>
+            <input type="date" id="date"name="date" placeholder="Date d'expiration">
+            
+        </div>
+         <br>
+
+         <div>
+            <label for="CVV"></label>
+            <input type="CVV" id="CVV"name="CVV" placeholder="CVV">
+           
+        </div>
+
+        <br>
+
+        
+            <button>Payer</button>
+        </div>
+        
+
+
+    </form>
+    
+   </div> 
+</body>
+</html>
